@@ -31,7 +31,7 @@ const App = () => {
   const addExpenseHandler = (expense) => {
     //console.log('In App.js');
     //console.log(expense);
-    setExpenses(prevExpenses => {
+    setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
   };
